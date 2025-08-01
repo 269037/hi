@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def greet():
     """Return a custom friendly HTTP greeting."""
-    return "Welcome to My Awesome App!"
+    return "Welcome to Cloud Computing Lab!"
 
 if __name__ == "__main__":
     app_host = "http://127.0.0.1:8080"
